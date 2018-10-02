@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3403FB17AA14472AD0CAE5DC /* Pods_Gear_Shop_Management.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0750D836DAAA0762422F5FCE /* Pods_Gear_Shop_Management.framework */; };
 		C3BA0F3A2163547300480F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F392163547300480F31 /* AppDelegate.swift */; };
 		C3BA0F3C2163547300480F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F3B2163547300480F31 /* ViewController.swift */; };
 		C3BA0F3F2163547300480F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F3D2163547300480F31 /* Main.storyboard */; };
 		C3BA0F412163547E00480F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F402163547E00480F31 /* Assets.xcassets */; };
 		C3BA0F442163547E00480F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F422163547E00480F31 /* LaunchScreen.storyboard */; };
+		C3BA0F51216358E400480F31 /* GearItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F4F216358E400480F31 /* GearItemTableViewCell.swift */; };
+		C3BA0F52216358E400480F31 /* GearItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F50216358E400480F31 /* GearItemTableViewCell.xib */; };
+		C3BA0F54216359AE00480F31 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F53216359AE00480F31 /* HomeViewController.swift */; };
+		C3BA0F56216359F400480F31 /* CategoryProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F55216359F400480F31 /* CategoryProductViewController.swift */; };
+		C3BA0F5821635A3300480F31 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F5721635A3300480F31 /* Constant.swift */; };
+		C3BA0F6221635A7200480F31 /* BaseModeVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F5921635A7100480F31 /* BaseModeVO.swift */; };
+		C3BA0F6321635A7200480F31 /* CPUModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F5A21635A7100480F31 /* CPUModel.swift */; };
+		C3BA0F6421635A7200480F31 /* document.json in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F5B21635A7100480F31 /* document.json */; };
+		C3BA0F6521635A7200480F31 /* MoboModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F5C21635A7100480F31 /* MoboModel.swift */; };
+		C3BA0F6621635A7200480F31 /* RamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F5D21635A7100480F31 /* RamModel.swift */; };
+		C3BA0F6721635A7200480F31 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F5E21635A7100480F31 /* CategoryModel.swift */; };
+		C3BA0F6821635A7200480F31 /* gearitem.json in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F5F21635A7100480F31 /* gearitem.json */; };
+		C3BA0F6921635A7200480F31 /* ProductCPUModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F6021635A7200480F31 /* ProductCPUModel.swift */; };
+		C3BA0F6A21635A7200480F31 /* VGAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F6121635A7200480F31 /* VGAModel.swift */; };
+		C3BA0F6E21635B3300480F31 /* CPUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F6C21635B3300480F31 /* CPUTableViewCell.swift */; };
+		C3BA0F6F21635B3300480F31 /* CPUTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F6D21635B3300480F31 /* CPUTableViewCell.xib */; };
+		C3BA0F7121635E7100480F31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F7021635E7100480F31 /* GoogleService-Info.plist */; };
+		C3BA0F7321635E9400480F31 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F7221635E9400480F31 /* API.swift */; };
+		C3BA0F76216361CD00480F31 /* VGATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F74216361CD00480F31 /* VGATableViewCell.swift */; };
+		C3BA0F77216361CD00480F31 /* VGATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F75216361CD00480F31 /* VGATableViewCell.xib */; };
+		C3BA0F7A2163634700480F31 /* RamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F782163634700480F31 /* RamTableViewCell.swift */; };
+		C3BA0F7B2163634700480F31 /* RamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F792163634700480F31 /* RamTableViewCell.xib */; };
+		C3BA0F7E216363E600480F31 /* MoboTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA0F7C216363E600480F31 /* MoboTableViewCell.swift */; };
+		C3BA0F7F216363E600480F31 /* MoboTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BA0F7D216363E600480F31 /* MoboTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0750D836DAAA0762422F5FCE /* Pods_Gear_Shop_Management.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gear_Shop_Management.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C73314DA3BA43F6F3E0BF56 /* Pods-Gear Shop Management.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gear Shop Management.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gear Shop Management/Pods-Gear Shop Management.debug.xcconfig"; sourceTree = "<group>"; };
 		C3BA0F362163547300480F31 /* Gear Shop Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gear Shop Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BA0F392163547300480F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3BA0F3B2163547300480F31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +49,31 @@
 		C3BA0F402163547E00480F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3BA0F432163547E00480F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3BA0F452163547E00480F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BA0F4F216358E400480F31 /* GearItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearItemTableViewCell.swift; sourceTree = "<group>"; };
+		C3BA0F50216358E400480F31 /* GearItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GearItemTableViewCell.xib; sourceTree = "<group>"; };
+		C3BA0F53216359AE00480F31 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C3BA0F55216359F400480F31 /* CategoryProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProductViewController.swift; sourceTree = "<group>"; };
+		C3BA0F5721635A3300480F31 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C3BA0F5921635A7100480F31 /* BaseModeVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModeVO.swift; sourceTree = "<group>"; };
+		C3BA0F5A21635A7100480F31 /* CPUModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPUModel.swift; sourceTree = "<group>"; };
+		C3BA0F5B21635A7100480F31 /* document.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = document.json; sourceTree = "<group>"; };
+		C3BA0F5C21635A7100480F31 /* MoboModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoboModel.swift; sourceTree = "<group>"; };
+		C3BA0F5D21635A7100480F31 /* RamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamModel.swift; sourceTree = "<group>"; };
+		C3BA0F5E21635A7100480F31 /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		C3BA0F5F21635A7100480F31 /* gearitem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gearitem.json; sourceTree = "<group>"; };
+		C3BA0F6021635A7200480F31 /* ProductCPUModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCPUModel.swift; sourceTree = "<group>"; };
+		C3BA0F6121635A7200480F31 /* VGAModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGAModel.swift; sourceTree = "<group>"; };
+		C3BA0F6C21635B3300480F31 /* CPUTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUTableViewCell.swift; sourceTree = "<group>"; };
+		C3BA0F6D21635B3300480F31 /* CPUTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CPUTableViewCell.xib; sourceTree = "<group>"; };
+		C3BA0F7021635E7100480F31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3BA0F7221635E9400480F31 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C3BA0F74216361CD00480F31 /* VGATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGATableViewCell.swift; sourceTree = "<group>"; };
+		C3BA0F75216361CD00480F31 /* VGATableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VGATableViewCell.xib; sourceTree = "<group>"; };
+		C3BA0F782163634700480F31 /* RamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamTableViewCell.swift; sourceTree = "<group>"; };
+		C3BA0F792163634700480F31 /* RamTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RamTableViewCell.xib; sourceTree = "<group>"; };
+		C3BA0F7C216363E600480F31 /* MoboTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoboTableViewCell.swift; sourceTree = "<group>"; };
+		C3BA0F7D216363E600480F31 /* MoboTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoboTableViewCell.xib; sourceTree = "<group>"; };
+		FB3147363C058CDBB62209F6 /* Pods-Gear Shop Management.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gear Shop Management.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gear Shop Management/Pods-Gear Shop Management.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3403FB17AA14472AD0CAE5DC /* Pods_Gear_Shop_Management.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2388F2CC688D72AAD132BCB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C73314DA3BA43F6F3E0BF56 /* Pods-Gear Shop Management.debug.xcconfig */,
+				FB3147363C058CDBB62209F6 /* Pods-Gear Shop Management.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		289087F51ED6D30F4FE3729F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0750D836DAAA0762422F5FCE /* Pods_Gear_Shop_Management.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3BA0F2D2163547200480F31 = {
 			isa = PBXGroup;
 			children = (
 				C3BA0F382163547300480F31 /* Gear Shop Management */,
 				C3BA0F372163547300480F31 /* Products */,
+				2388F2CC688D72AAD132BCB6 /* Pods */,
+				289087F51ED6D30F4FE3729F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +126,70 @@
 		C3BA0F382163547300480F31 /* Gear Shop Management */ = {
 			isa = PBXGroup;
 			children = (
+				C3BA0F4D2163589600480F31 /* Controller */,
+				C3BA0F4C2163589100480F31 /* View */,
+				C3BA0F4B2163588B00480F31 /* Model */,
 				C3BA0F392163547300480F31 /* AppDelegate.swift */,
-				C3BA0F3B2163547300480F31 /* ViewController.swift */,
-				C3BA0F3D2163547300480F31 /* Main.storyboard */,
 				C3BA0F402163547E00480F31 /* Assets.xcassets */,
-				C3BA0F422163547E00480F31 /* LaunchScreen.storyboard */,
+				C3BA0F7021635E7100480F31 /* GoogleService-Info.plist */,
 				C3BA0F452163547E00480F31 /* Info.plist */,
 			);
 			path = "Gear Shop Management";
+			sourceTree = "<group>";
+		};
+		C3BA0F4B2163588B00480F31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3BA0F5921635A7100480F31 /* BaseModeVO.swift */,
+				C3BA0F5E21635A7100480F31 /* CategoryModel.swift */,
+				C3BA0F5A21635A7100480F31 /* CPUModel.swift */,
+				C3BA0F5B21635A7100480F31 /* document.json */,
+				C3BA0F5F21635A7100480F31 /* gearitem.json */,
+				C3BA0F5C21635A7100480F31 /* MoboModel.swift */,
+				C3BA0F6021635A7200480F31 /* ProductCPUModel.swift */,
+				C3BA0F5D21635A7100480F31 /* RamModel.swift */,
+				C3BA0F6121635A7200480F31 /* VGAModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3BA0F4C2163589100480F31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3BA0F3D2163547300480F31 /* Main.storyboard */,
+				C3BA0F422163547E00480F31 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3BA0F4D2163589600480F31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3BA0F4E216358B700480F31 /* Component */,
+				C3BA0F3B2163547300480F31 /* ViewController.swift */,
+				C3BA0F53216359AE00480F31 /* HomeViewController.swift */,
+				C3BA0F55216359F400480F31 /* CategoryProductViewController.swift */,
+				C3BA0F7221635E9400480F31 /* API.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C3BA0F4E216358B700480F31 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C3BA0F4F216358E400480F31 /* GearItemTableViewCell.swift */,
+				C3BA0F50216358E400480F31 /* GearItemTableViewCell.xib */,
+				C3BA0F5721635A3300480F31 /* Constant.swift */,
+				C3BA0F6C21635B3300480F31 /* CPUTableViewCell.swift */,
+				C3BA0F6D21635B3300480F31 /* CPUTableViewCell.xib */,
+				C3BA0F74216361CD00480F31 /* VGATableViewCell.swift */,
+				C3BA0F75216361CD00480F31 /* VGATableViewCell.xib */,
+				C3BA0F782163634700480F31 /* RamTableViewCell.swift */,
+				C3BA0F792163634700480F31 /* RamTableViewCell.xib */,
+				C3BA0F7C216363E600480F31 /* MoboTableViewCell.swift */,
+				C3BA0F7D216363E600480F31 /* MoboTableViewCell.xib */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3BA0F482163547E00480F31 /* Build configuration list for PBXNativeTarget "Gear Shop Management" */;
 			buildPhases = (
+				7400457DC0D77AEB3DF391B2 /* [CP] Check Pods Manifest.lock */,
 				C3BA0F322163547300480F31 /* Sources */,
 				C3BA0F332163547300480F31 /* Frameworks */,
 				C3BA0F342163547300480F31 /* Resources */,
+				9DA320A32A305B0798299DCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +252,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BA0F7B2163634700480F31 /* RamTableViewCell.xib in Resources */,
+				C3BA0F6F21635B3300480F31 /* CPUTableViewCell.xib in Resources */,
+				C3BA0F7F216363E600480F31 /* MoboTableViewCell.xib in Resources */,
+				C3BA0F7121635E7100480F31 /* GoogleService-Info.plist in Resources */,
 				C3BA0F442163547E00480F31 /* LaunchScreen.storyboard in Resources */,
+				C3BA0F6421635A7200480F31 /* document.json in Resources */,
+				C3BA0F77216361CD00480F31 /* VGATableViewCell.xib in Resources */,
 				C3BA0F412163547E00480F31 /* Assets.xcassets in Resources */,
 				C3BA0F3F2163547300480F31 /* Main.storyboard in Resources */,
+				C3BA0F52216358E400480F31 /* GearItemTableViewCell.xib in Resources */,
+				C3BA0F6821635A7200480F31 /* gearitem.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7400457DC0D77AEB3DF391B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gear Shop Management-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA320A32A305B0798299DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gear Shop Management/Pods-Gear Shop Management-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gear Shop Management/Pods-Gear Shop Management-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3BA0F322163547300480F31 /* Sources */ = {
@@ -136,7 +325,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3BA0F3C2163547300480F31 /* ViewController.swift in Sources */,
+				C3BA0F6221635A7200480F31 /* BaseModeVO.swift in Sources */,
+				C3BA0F76216361CD00480F31 /* VGATableViewCell.swift in Sources */,
+				C3BA0F6921635A7200480F31 /* ProductCPUModel.swift in Sources */,
+				C3BA0F6321635A7200480F31 /* CPUModel.swift in Sources */,
+				C3BA0F7321635E9400480F31 /* API.swift in Sources */,
+				C3BA0F5821635A3300480F31 /* Constant.swift in Sources */,
+				C3BA0F6621635A7200480F31 /* RamModel.swift in Sources */,
+				C3BA0F56216359F400480F31 /* CategoryProductViewController.swift in Sources */,
 				C3BA0F3A2163547300480F31 /* AppDelegate.swift in Sources */,
+				C3BA0F6721635A7200480F31 /* CategoryModel.swift in Sources */,
+				C3BA0F51216358E400480F31 /* GearItemTableViewCell.swift in Sources */,
+				C3BA0F54216359AE00480F31 /* HomeViewController.swift in Sources */,
+				C3BA0F6521635A7200480F31 /* MoboModel.swift in Sources */,
+				C3BA0F7E216363E600480F31 /* MoboTableViewCell.swift in Sources */,
+				C3BA0F7A2163634700480F31 /* RamTableViewCell.swift in Sources */,
+				C3BA0F6E21635B3300480F31 /* CPUTableViewCell.swift in Sources */,
+				C3BA0F6A21635A7200480F31 /* VGAModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,16 +483,21 @@
 		};
 		C3BA0F492163547E00480F31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C73314DA3BA43F6F3E0BF56 /* Pods-Gear Shop Management.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4MJKWK33YR;
 				INFOPLIST_FILE = "Gear Shop Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vn.entergroup.Gear-Shop-Management";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a30d3c3-f64b-4e72-8a44-d1dee1a06894";
+				PROVISIONING_PROFILE_SPECIFIER = "enter group vn";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,16 +505,21 @@
 		};
 		C3BA0F4A2163547E00480F31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3147363C058CDBB62209F6 /* Pods-Gear Shop Management.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4MJKWK33YR;
 				INFOPLIST_FILE = "Gear Shop Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vn.entergroup.Gear-Shop-Management";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a30d3c3-f64b-4e72-8a44-d1dee1a06894";
+				PROVISIONING_PROFILE_SPECIFIER = "enter group vn";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
